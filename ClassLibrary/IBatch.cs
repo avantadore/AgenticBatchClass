@@ -15,7 +15,7 @@ namespace ClassLibrary
         /// <summary>
         /// Return a Batch of 100 items if storage holds at least 100 items.
         /// If oldest item in storage is older than 5 minutes, return a batch of all items in storage.
-        /// If number of items in storage is less than 100 and oldest item is younger than 5 minutes, return null.
+        /// If number of items in storage is less than 100 and oldest item is younger than 5 minutes, return empty collection.
         /// </summary>
         /// <returns></returns>
         IEnumerable<T> GetBatch();
