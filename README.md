@@ -1,7 +1,7 @@
 # AgenticBatchClass
 
 ## What happens if you invite copilot to a c# technical job interview.
-I've added a simpple interface class as the starting point with some simple instructions
+I've added a simple interface class as the starting point with some simple instructions/specifications
 - Then I've asked copilot to create an implementation of the interface
 - Then ask the normal job interview questions
 
